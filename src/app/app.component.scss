@@ -1,0 +1,43 @@
+@import "../assets/main-theme.scss";
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mat-sidenav {
+    min-width: 250px;
+}
+
+  .item-list {
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .sidenav-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    img {
+      height: 80px;
+      width: 80px;
+      border-radius: 200px;
+    }
+    label {
+      margin-top: 5px;
+    }
+  }
+
+  mat-list-item {
+    cursor: pointer;
+  }
+  
+  .content-page {
+    padding: 20px;
+}

@@ -24,7 +24,9 @@ import {
   MatTableModule,
   MatSlideToggleModule,
   MatMenuModule,
+  MatPaginatorModule,
   MatProgressSpinnerModule,
+
 } from '@angular/material';
 import { RouterModule } from '@angular/router';
 
@@ -58,6 +60,7 @@ import { COMPONENTS, ENTRY_COMPONENTS } from './components';
     MatTableModule,
     MatSlideToggleModule,
     MatMenuModule,
+    MatPaginatorModule,
     MatProgressSpinnerModule,
   ],
   exports: [
@@ -87,6 +90,7 @@ import { COMPONENTS, ENTRY_COMPONENTS } from './components';
     MatTableModule,
     MatSlideToggleModule,
     MatMenuModule,
+    MatPaginatorModule,
     MatProgressSpinnerModule,
     ...COMPONENTS,
   ],
@@ -94,4 +98,4 @@ import { COMPONENTS, ENTRY_COMPONENTS } from './components';
   providers: [],
   entryComponents: [...ENTRY_COMPONENTS],
 })
-export class CommonModule {}
+export class SharedModule {}
