@@ -6,7 +6,7 @@ const routes: Routes = [
   {
     path: '',
     component: ProductComponent,
-    children:[
+    children: [
       {
         path: '',
         redirectTo: 'list'
